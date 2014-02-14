@@ -667,6 +667,7 @@ public class SoftKeyboard extends InputMethodService implements
 
 	private String getWordSeparators()
 	{
+    Log.i("getWordSeparators", "get Word Separators");
 		return mWordSeparators;
 	}
 
